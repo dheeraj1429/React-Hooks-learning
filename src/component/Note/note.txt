@@ -1,0 +1,9 @@
+useState -> 
+
+What is useState() in React ? The useState() is a Hook that allows you to have state variables in functional components. React has two types of components, one is class components which are ES6 classes that extend from React and the other is functional components.
+
+We can also pass a function as an argument if the initial state has to be computed. And the value returned by the function will be used as the initial state.
+
+useEffect -> 
+
+useEffect is short for ‘use side effect’. Effects are when our application reacts with the outside world, like working with an API. It allows us to run a function based on whether something changed. useEffect also allows us to combine componentDidMount and componentDidUpdate.
