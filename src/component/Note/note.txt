@@ -7,3 +7,48 @@ We can also pass a function as an argument if the initial state has to be comput
 useEffect -> 
 
 useEffect is short for ‘use side effect’. Effects are when our application reacts with the outside world, like working with an API. It allows us to run a function based on whether something changed. useEffect also allows us to combine componentDidMount and componentDidUpdate.
+
+axios ->
+
+What is Axios? (A little bit of history) Axios is used to communicate with the backend and it also supports the Promise API that is native to JS ES6. It is a library which is used to make requests to an API, return data from the API, and then do things with that data in our React application
+
+npm install axios
+
+api -> 
+
+https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=04c35731a5ee918f014970082a0088b1&page=1
+
+context -> 
+
+The React context provides data to components no matter how deep they are in the components tree. The context is used to manage global data, e.g. global state, theme, services, user settings, and more.
+
+context provides a way to pass data through the components tree without having to pass props down manually at every level.
+
+useReducer -> 
+
+One of the most popular Hooks among developers so far is useReducer, which allows us to handle some complex state manipulations and updates,
+
+useReducer is a Hook that is used fro managemant 
+it is an alernative to useState
+What's Defference between -> useState && useReducer
+useState is build using useReducer
+
+useState -> State
+useEffect -> SideEffect
+useContext -> Context api
+useReducer -> Reducer
+
+
+java script reduce vs react useReducer
+
+reduce ->
+
+arr.reducer(reducer, initialValue)
+singleValue = reduce(accumulator, itemValue)
+reduce methods return a signle value
+
+useReducer ->
+
+useReducer(reduce, initialState)
+newState = reduce(currentState, action)
+useReducer returns a pair of values [newState, dispatch]
