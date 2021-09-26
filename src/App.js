@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 // useState
 // import UseStateHook from "./component/hooks_learn/useState/useState.component";
@@ -29,6 +29,12 @@ import React, { useState } from "react";
 // import UserReducerFirst from "./component/hooks_learn/useReducer/UserReducerFirst";
 // import UseReducerSecond from "./component/hooks_learn/useReducer/UseReducerSecond";
 // import UserReducerThree from "./component/hooks_learn/useReducer/UseReducerThree";
+
+// useReducer with Context api
+// import UseReducerFour from "./component/hooks_learn/useReducer/UseReducerWithContextApi/UseReducerFour";
+
+// useReduce with data fetch
+// import UseReducerFive from "./component/hooks_learn/useReducer/FetchDataUsingUseReducer/UseReducerFive";
 
 function App() {
   // const [user, setuser] = useState({
@@ -66,6 +72,12 @@ function App() {
       {/* <UserReducerFirst /> */}
       {/* <UseReducerSecond /> */}
       {/* <UserReducerThree /> */}
+
+      {/* useReducer with context api */}
+      {/* <UseReducerFour /> */}
+
+      {/* useRedcuer with data fetch */}
+      {/* <UseReducerFive /> */}
     </div>
   );
 }

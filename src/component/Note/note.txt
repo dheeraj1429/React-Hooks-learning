@@ -52,3 +52,14 @@ useReducer ->
 useReducer(reduce, initialState)
 newState = reduce(currentState, action)
 useReducer returns a pair of values [newState, dispatch]
+
+useState vs useReducer -> 
+
+Scenario                        useState                        useReducer
+
+Types of state                  Number, String, Boolean         Object or Array
+Number of state trasition       One or two                      Too Many
+Related state trasition         No                              Yes
+Business logic                  No Business logic               Compolex Business logic
+Local vs global                 Local                           global
+
