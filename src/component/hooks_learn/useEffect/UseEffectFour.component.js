@@ -8,9 +8,9 @@ const UseEffectFour = () => {
   };
 
   useEffect(() => {
-    const SetInterval = setInterval(timer, 1000);
+    const intervale = setInterval(timer, 1000);
     return () => {
-      clearInterval(SetInterval);
+      clearInterval(intervale);
     };
   }, []);
 

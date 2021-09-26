@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 // useState
 // import UseStateHook from "./component/hooks_learn/useState/useState.component";
@@ -21,7 +21,22 @@ import React from "react";
 // export const userContext = React.createContext();
 // export const newUserContext = React.createContext();
 
+// import ContextApiA from "./component/hooks_learn/ContextApi/ContextApiA";
+// import ContextApiB from "./component/hooks_learn/ContextApi/ContextApiB";
+// export const firstContext = React.createContext();
+
+// useReducer
+// import UserReducerFirst from "./component/hooks_learn/useReducer/UserReducerFirst";
+// import UseReducerSecond from "./component/hooks_learn/useReducer/UseReducerSecond";
+// import UserReducerThree from "./component/hooks_learn/useReducer/UseReducerThree";
+
 function App() {
+  // const [user, setuser] = useState({
+  //   name: "Dheeraj",
+  //   age: "",
+  //   place: "",
+  // });
+
   return (
     <div className="App">
       {/* use state */}
@@ -41,13 +56,16 @@ function App() {
       {/* <UseEffectFive /> */}
 
       {/* context */}
-      {/* <userContext.Provider value={"Dheeraj"}>
-        <newUserContext.Provider value={"karan"}>
+      {/* <userContext.Provider value={user}>
+        <newUserContext.Provider value={user}>
           <ComponentA />
         </newUserContext.Provider>
       </userContext.Provider> */}
 
       {/* useReducer */}
+      {/* <UserReducerFirst /> */}
+      {/* <UseReducerSecond /> */}
+      {/* <UserReducerThree /> */}
     </div>
   );
 }
